@@ -40,4 +40,36 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.14.2'
     implementation 'com.squareup.okio:okio:1.17.4'
 //文件选择器依赖
-    implementation 'me.rosuh:AndroidFilePicker:0.6.1'}
+    implementation 'me.rosuh:AndroidFilePicker:0.6.1'
+//图片裁剪
+    implementation 'com.github.yalantis:ucrop:2.2.4'
+
+    //Android ButterKnife框架
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    //Android 智能刷新框架SmartRefreshLayout      1.0.5 当1.1.0出现问题可以回退到1.0.5.1
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'//没有使用特殊Header，可以不加这行
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'//使用第三方的滑动头文件
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.1'//版本 23以上（必须）
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:25.3.1'//版本随意（非必须，引用可以解决无法预览问题）
+
+    //    RecyclerView是Android一个更强大的控件,其不仅可以实现和ListView同样的效果,还有优化了ListView中的各种不足。
+    // 其可以实现数据纵向滚动,也可以实现横向滚动(ListView做不到横向滚动)
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'//一个开源gif控件
+
+    //统计图表库
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+//AndroidUtilCode强大易用的安卓工具类库，强大易用的安卓工具类库
+    implementation 'com.blankj:utilcode:1.26.0'
+
+    //Glide图片框架
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+}

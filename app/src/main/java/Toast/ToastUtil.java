@@ -5,6 +5,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 public class ToastUtil {
+
+    //文件获取方式不同
     public static void showToast(final Activity activity, final String message) {
         if ("main".equals(Thread.currentThread().getName())) {
             Log.e("ToastUtil", "在主线程");

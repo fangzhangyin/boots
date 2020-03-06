@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">boots</string>
+    <string name="description_define_in_xml" />
 </resources>
